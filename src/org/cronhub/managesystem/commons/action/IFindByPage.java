@@ -5,8 +5,8 @@ import java.util.List;
 import org.cronhub.managesystem.commons.dao.bean.TaskRecordDone;
 
 /***
- * 泛型类，用于向分页的页面填充真正的数据<br />
- * 范例用法:<br />
+ * <br />
+ * :<br />
  * IFindByPage<TaskRecordDone> ifinder = new IFindByPage<TaskRecordDone>(){
 			@Override
 			public List<TaskRecordDone> findByPage(int currentPage, int maxPerPage) {
