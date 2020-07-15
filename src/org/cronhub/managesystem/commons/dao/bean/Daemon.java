@@ -18,7 +18,7 @@ public class Daemon {
 	private Date update_time;
 	
 	/**
-	 * 新增一个得到task任务个数的字段，供页面显示使用
+	 * 
 	 */
 	private Integer task_count;
 	public Date getUpdate_time() {
