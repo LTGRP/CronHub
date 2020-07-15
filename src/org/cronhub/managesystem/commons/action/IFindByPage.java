@@ -22,3 +22,4 @@ import org.cronhub.managesystem.commons.dao.bean.TaskRecordDone;
 public interface IFindByPage<T> {
 	public List<T> findByPage(int currentPage,int maxPerPage);
 }
+ 
